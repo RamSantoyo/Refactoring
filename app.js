@@ -1,4 +1,4 @@
-const fs = require("fs");
+//const fs = require("fs");
 
 // Part 1 Read json file ===========================
 /* const rawdata = fs.readFileSync("explorers.json");
