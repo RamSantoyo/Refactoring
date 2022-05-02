@@ -1,13 +1,12 @@
 {
   "name": "refactoring",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "node --experimental-vm-modules ./node_modules/jest/bin/jest",
     "linter": "node ./node_modules/eslint/bin/eslint.js .",
-    "linter-fix": "node ./node_modules/eslint/bin/eslint.js . --fix"
-
+    "linter-fix": "node ./node_modules/eslint/bin/eslint.js . --fix",
+    "server": "node ./lib/server.js"
   },
   "keywords": [],
   "author": "Ramsess Santoyo",
@@ -18,5 +17,18 @@
   "devDependencies": {
     "eslint": "^8.14.0",
     "jest": "^28.0.1"
-  }
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RamSantoyo/Refactoring.git"
+  },
+  "bugs": {
+    "url": "https://github.com/RamSantoyo/Refactoring/issues"
+  },
+  "homepage": "https://github.com/RamSantoyo/Refactoring#readme",
+  "description": ""
 }
